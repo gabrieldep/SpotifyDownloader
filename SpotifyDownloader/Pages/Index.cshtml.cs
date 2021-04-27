@@ -19,6 +19,10 @@ namespace SpotifyDownloader.Pages
 
         public void OnGet()
         {
+        }
+
+        public void OnPostDownloadPlaylist(string LinkPlaylist)
+        {
 
         }
     }

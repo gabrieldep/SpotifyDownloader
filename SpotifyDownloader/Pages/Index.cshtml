@@ -5,6 +5,10 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Spotify downloader</h1>
+    <hr />
+    <form method="post" asp-page-handler="DownloadPlaylist">
+        <input type="text" placeholder="Playlist link" name="LinkPlaylist"/>
+        <button type="submit">Baixar</button>
+    </form>
 </div>

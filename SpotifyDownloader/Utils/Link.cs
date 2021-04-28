@@ -13,7 +13,7 @@ namespace SpotifyDownloader.Utils
         /// </summary>
         /// <param name="Link">Playlist link to get playlist_id.</param>
         /// <returns>If link is valid, return the playlist_id, else, return null.</returns>
-        internal static string GetPlaylistGuid(string Link)
+        internal static string GetPlaylistId(string Link)
         {
             var match = Regex.Match(Link, @"(?s)(?<=playlist/).+?(?=\?si)");
             if (match.Success)

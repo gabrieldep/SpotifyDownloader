@@ -23,14 +23,14 @@ namespace SpotifyDownloader.Pages
         {
         }
 
-        public IActionResult OnPostDownloadPlaylist(string LinkPlaylist)
+        public async Task<IActionResult> OnPostDownloadPlaylistAsync(string LinkPlaylist)
         {
             if (!LinkPlaylist.Contains("playlist"))
             {
                 return NotFound();
             }
 
-            Spotify.DownloadPlaylist(Link.GetPlaylistGuid(LinkPlaylist));
+            await Spotify.GetPlaylistItemsAsync(Link.GetPlaylistId(LinkPlaylist));
             return null;
         }
     }

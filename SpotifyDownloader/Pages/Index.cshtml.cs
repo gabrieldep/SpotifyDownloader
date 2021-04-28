@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using SpotifyAPI.Web;
+using SpotifyAPI.Web.Auth;
 using SpotifyDownloader.Comunication;
 using SpotifyDownloader.Utils;
 using System;
@@ -21,17 +23,19 @@ namespace SpotifyDownloader.Pages
 
         public void OnGet()
         {
+
         }
 
-        public async Task<IActionResult> OnPostDownloadPlaylistAsync(string LinkPlaylist)
+        public void OnPost()
         {
-            if (!LinkPlaylist.Contains("playlist"))
-            {
-                return NotFound();
-            }
+            //var request = new LoginRequest(new Uri("https://localhost:44308/spotify/callback"), "7083dbc934a84942ab8b408f000905e9", LoginRequest.ResponseType.Code)
+            //{
+            //    Scope = new List<string> { Scopes.UserReadEmail }
+            //};
 
-            await Spotify.GetPlaylistItemsAsync(Link.GetPlaylistId(LinkPlaylist));
-            return null;
+            //Uri uri = request.ToUri();
+            //BrowserUtil.Open(uri);
         }
     }
 }
+

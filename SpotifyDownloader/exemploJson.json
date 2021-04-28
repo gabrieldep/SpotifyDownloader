@@ -1,0 +1,220 @@
+{
+  "href": "https://api.spotify.com/v1/playlists/61znOeyXBx8DBpGu6qoewt/tracks?offset=0&limit=100&market=ES",
+  "items": [
+    {
+      "added_at": "2021-03-05T23:02:37Z",
+      "added_by": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/gabrieldepaula007"
+        },
+        "href": "https://api.spotify.com/v1/users/gabrieldepaula007",
+        "id": "gabrieldepaula007",
+        "type": "user",
+        "uri": "spotify:user:gabrieldepaula007"
+      },
+      "is_local": false,
+      "primary_color": null,
+      "track": {
+        "album": {
+          "album_type": "single",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/592JnViQ2tot63c1SbtgK2"
+              },
+              "href": "https://api.spotify.com/v1/artists/592JnViQ2tot63c1SbtgK2",
+              "id": "592JnViQ2tot63c1SbtgK2",
+              "name": "MC Paulin da Capital",
+              "type": "artist",
+              "uri": "spotify:artist:592JnViQ2tot63c1SbtgK2"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/75i9GaW2MJUgt4BkdUnuUY"
+              },
+              "href": "https://api.spotify.com/v1/artists/75i9GaW2MJUgt4BkdUnuUY",
+              "id": "75i9GaW2MJUgt4BkdUnuUY",
+              "name": "MC Ryan SP",
+              "type": "artist",
+              "uri": "spotify:artist:75i9GaW2MJUgt4BkdUnuUY"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1OXqi7vldEPkS79Q8FJPV4"
+          },
+          "href": "https://api.spotify.com/v1/albums/1OXqi7vldEPkS79Q8FJPV4",
+          "id": "1OXqi7vldEPkS79Q8FJPV4",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27377e926f9ad4994e5c25fd7e4",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0277e926f9ad4994e5c25fd7e4",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485177e926f9ad4994e5c25fd7e4",
+              "width": 64
+            }
+          ],
+          "name": "Os Mandrake Curte a Vida",
+          "release_date": "2020-09-25",
+          "release_date_precision": "day",
+          "total_tracks": 1,
+          "type": "album",
+          "uri": "spotify:album:1OXqi7vldEPkS79Q8FJPV4"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/592JnViQ2tot63c1SbtgK2"
+            },
+            "href": "https://api.spotify.com/v1/artists/592JnViQ2tot63c1SbtgK2",
+            "id": "592JnViQ2tot63c1SbtgK2",
+            "name": "MC Paulin da Capital",
+            "type": "artist",
+            "uri": "spotify:artist:592JnViQ2tot63c1SbtgK2"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/75i9GaW2MJUgt4BkdUnuUY"
+            },
+            "href": "https://api.spotify.com/v1/artists/75i9GaW2MJUgt4BkdUnuUY",
+            "id": "75i9GaW2MJUgt4BkdUnuUY",
+            "name": "MC Ryan SP",
+            "type": "artist",
+            "uri": "spotify:artist:75i9GaW2MJUgt4BkdUnuUY"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 256000,
+        "episode": false,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "BXG6R2001144"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5J1xChbEwiI3q371r7mDOg"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5J1xChbEwiI3q371r7mDOg",
+        "id": "5J1xChbEwiI3q371r7mDOg",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Os Mandrake Curte a Vida",
+        "popularity": 66,
+        "preview_url": "https://p.scdn.co/mp3-preview/6997f0596ce3f20410ccc3bc548bc11f8b9059bf?cid=774b29d4f13844c495f206cafdad9c86",
+        "track": true,
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:5J1xChbEwiI3q371r7mDOg"
+      },
+      "video_thumbnail": {
+        "url": null
+      }
+    },
+    {
+      "added_at": "2021-03-05T23:04:21Z",
+      "added_by": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/gabrieldepaula007"
+        },
+        "href": "https://api.spotify.com/v1/users/gabrieldepaula007",
+        "id": "gabrieldepaula007",
+        "type": "user",
+        "uri": "spotify:user:gabrieldepaula007"
+      },
+      "is_local": false,
+      "primary_color": null,
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/37ZflmHTdxkSLQuT8w9NBs"
+              },
+              "href": "https://api.spotify.com/v1/artists/37ZflmHTdxkSLQuT8w9NBs",
+              "id": "37ZflmHTdxkSLQuT8w9NBs",
+              "name": "Criolo",
+              "type": "artist",
+              "uri": "spotify:artist:37ZflmHTdxkSLQuT8w9NBs"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2zeWAYgh0WfMhiHwvUV15b"
+          },
+          "href": "https://api.spotify.com/v1/albums/2zeWAYgh0WfMhiHwvUV15b",
+          "id": "2zeWAYgh0WfMhiHwvUV15b",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2739f08c2a93ef090a1e1e6bf0c",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e029f08c2a93ef090a1e1e6bf0c",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048519f08c2a93ef090a1e1e6bf0c",
+              "width": 64
+            }
+          ],
+          "name": "Nó na Orelha",
+          "release_date": "2011-01-01",
+          "release_date_precision": "day",
+          "total_tracks": 11,
+          "type": "album",
+          "uri": "spotify:album:2zeWAYgh0WfMhiHwvUV15b"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/37ZflmHTdxkSLQuT8w9NBs"
+            },
+            "href": "https://api.spotify.com/v1/artists/37ZflmHTdxkSLQuT8w9NBs",
+            "id": "37ZflmHTdxkSLQuT8w9NBs",
+            "name": "Criolo",
+            "type": "artist",
+            "uri": "spotify:artist:37ZflmHTdxkSLQuT8w9NBs"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 156240,
+        "episode": false,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "BRKLG1100006"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7Mo4HmVdgYXBrOd9AYeqP9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7Mo4HmVdgYXBrOd9AYeqP9",
+        "id": "7Mo4HmVdgYXBrOd9AYeqP9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Grajauex",
+        "popularity": 46,
+        "preview_url": "https://p.scdn.co/mp3-preview/6c2aab85b2aa0b5eba0ad9f155c8a191d81d7538?cid=774b29d4f13844c495f206cafdad9c86",
+        "track": true,
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:7Mo4HmVdgYXBrOd9AYeqP9"
+      },
+      "video_thumbnail": {
+        "url": null
+      }
+    }
+  ],
+  "limit": 100,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 2
+}

@@ -403,3 +403,5 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+/SpotifyDownloader/appsettings.Development.json
+/SpotifyDownloader/appsettings.json

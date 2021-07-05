@@ -2,20 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AppLogger.Controls;
-using AppLogger.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using SpotifyDownloader.Model;
 
-namespace SpotifyDownloader.Pages
+namespace SpotifyDownloader.Pages.Musics
 {
-    public class CreateMusicModel : PageModel
+    public class CreateModel : PageModel
     {
         private readonly SpotifyDownloader.Model.SpotifyDownloaderDbContext _context;
 
-        public CreateMusicModel(SpotifyDownloader.Model.SpotifyDownloaderDbContext context)
+        public CreateModel(SpotifyDownloader.Model.SpotifyDownloaderDbContext context)
         {
             _context = context;
         }
@@ -37,8 +35,7 @@ namespace SpotifyDownloader.Pages
             }
 
             _context.Musics.Add(Music);
-            await _context.SaveChangesAsync("Gabriel");
-
+            await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
         }
